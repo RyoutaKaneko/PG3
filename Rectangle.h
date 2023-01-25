@@ -3,8 +3,8 @@
 
 class Rectangle :public IShape {
 public:
-	void Size() {};
-	void Draw();
+	void Size()override {};
+	void Draw()override;
 
 public:
 	Rectangle();
